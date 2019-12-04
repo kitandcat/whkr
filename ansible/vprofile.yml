@@ -8,8 +8,8 @@
 
 
     - name: Install java_1.8
-      yum: 
-        name: java-1.8.0-openjdk.x86_64 
+      apt: 
+        name: openjdk-8-jdk
         state: present
   
     - name: download tomcat url
